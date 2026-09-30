@@ -1,0 +1,11 @@
+body {
+    background: pink;
+
+    @media (min-width: 15em) {
+        background: yellow;
+    
+    @media (min-width: 5em) {
+        background: rgb(0, 38, 255);
+    }
+
+}
