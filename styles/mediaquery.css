@@ -1,11 +1,18 @@
+/* Standaard achtergrondkleur voor de kleinste schermen */
 body {
     background: pink;
+}
 
-    @media (min-width: 15em) {
+/* Vanaf 30em (480px, bijv. grotere telefoons/kleine tablets) */
+@media (min-width: 30em) {
+    body {
         background: yellow;
-    
-    @media (min-width: 5em) {
+    }
+}
+
+/* Vanaf 50em (800px, bijv. tablets en desktop) */
+@media (min-width: 50em) {
+    body {
         background: rgb(0, 38, 255);
     }
-
 }
